@@ -1,16 +1,11 @@
 
 
-### Musical Hit Trends: A Data Driven Analysis of Popular Songs (1990-2023)
+# Musical Hit Trends: A Data Driven Analysis of Popular Songs (1990-2023)
 
 Author: Ke Xu
 
-Course: DSCI 510
 
-USC ID: 8736873990
-
-
-
-#### Project Overview
+### Project Overview
 
 **Introduction:** The digital age, marked by the rise of streaming platforms such as Spotify, Apple
 Music and YouTube Music, has revolutionized our listening habits. These streaming platforms collect
