@@ -2,10 +2,9 @@
 
 # Musical Hit Trends: A Data Driven Analysis of Popular Songs (1990-2023)
 
-Author: Ke Xu
 
 
-### Project Overview
+# Project Overview
 
 **Introduction:** The digital age, marked by the rise of streaming platforms such as Spotify, Apple
 Music and YouTube Music, has revolutionized our listening habits. These streaming platforms collect
@@ -20,7 +19,7 @@ also contribute valuable sights to stakeholders within the music industry
 
 
 
-#### Features
+# Features
 
 - Data Extraction: Utilizes APIs and web scraping to gather music data.
 
@@ -30,7 +29,7 @@ also contribute valuable sights to stakeholders within the music industry
 
   
 
-#### Requirements
+# Requirements
 
 - Programming Language: Python
 - Environment: Python 3.x Environment
@@ -38,7 +37,7 @@ also contribute valuable sights to stakeholders within the music industry
 
 
 
-#### Installation
+# Installation
 
 To set up this project:
 
@@ -57,7 +56,7 @@ pip install -r requirements.txt
 
 
 
-#### Configuration
+# Configuration
 
 I have stored all API keys and secrets in the 'scr/.env' file. Each script will load necessary credentials from this file at runtime. Due to frequent rate limits encountered with Spotify's API, multiple app credentials are stored. Feel free to switch to a different key if the rate limit is hit!
 
@@ -77,7 +76,7 @@ SECRECT = '89d39aab6123342c4f0bfe997f8e0d79'
 
 
 
-#### Usage
+# Usage
 
 
 HOW TO ACTIVATE SMAPLE MODE
@@ -116,7 +115,7 @@ As I don't know how to only create 5 samples entries in this case, it will retur
 
 
 
-#### Usage Example
+# Usage Example
 
 1. Spotify API
 
@@ -141,33 +140,6 @@ As I don't know how to only create 5 samples entries in this case, it will retur
 ```
 # pic 3
 ```
-
-
-
-#### Project Structure
-
-```css
-FINAL_PROJECT/
-├── README.md               
-├── data/                    
-│   ├──        
-│   └── spotify_playlists.csv             
-├── scripts/                     # Source code for the project
-│   ├── grammy_web_scraping.py     
-├   ├── lastfm_api.csv     
-			── .env  
-│   └── spotify_api.py            
-├── output/                  
-│   ├── results.csv     
-    ── 1_sp_full_data.csv   
-    ── 2_lastfm_api_results.csv   
-		── 3_grammy_results.csv   
-└── requirements.txt         # Required libraries
-
-```
-
-
-INCLUDE A DIAGRAM TO ILLUSTRATE WORKFLOW
 
 
 
