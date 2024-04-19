@@ -65,13 +65,13 @@ I have stored all API keys and secrets in the 'scr/.env' file. Each script will 
 
 # SPOTIFY_API_KEY 1,2,3,4,5
 # No.1
-CLIENT_ID = '85c2ebdb71a54b6a8696e6efa4035d81'
-CLIENT_SECRET = '027f493fef5c420d83ac673e35141daf'
+CLIENT_ID = 'xyz'
+CLIENT_SECRET = 'xyz'
 ...
 
 # Last.fm API
-API_KEY = 'b313434440505504bdee7d3138cc6a5f'
-SECRECT = '89d39aab6123342c4f0bfe997f8e0d79'
+API_KEY = 'xyz'
+SECRECT = 'xyz'
 ```
 
 
